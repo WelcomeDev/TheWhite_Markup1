@@ -79,4 +79,5 @@ ul.horizontal{
 
 li{
     margin: 12px;
+    cursor: pointer;
 }

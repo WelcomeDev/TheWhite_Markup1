@@ -1,0 +1,50 @@
+#sign-up:hover,
+#contact:hover,
+.service-odd:hover,
+.service-even:hover{
+    animation-name: scale-transform;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes scale-transform {
+    to{
+        transform: scale(1.05);
+    }
+}
+
+#sign-up:hover{
+    background: white;
+    color: #CAA892;
+    border: #CAA892 solid 1px;
+}
+
+#contact:hover{
+    background: white;
+    color: #37806B;
+    border: #37806B solid 1px;
+}
+
+#sign-up:active,
+#contact:active,
+.circle-right:active,
+.circle-left:active{
+    animation-name: button-click;
+    animation-duration: 0.5s;
+}
+
+@keyframes button-click {
+    to{
+        transform: scale(0.75);
+    }
+}
+
+.circle-left:hover,
+.circle-right:hover{
+    box-shadow: -3px 9px 30px rgba(0, 0, 0, 0.25);
+}
+
+li:hover{
+    color: black;
+    font-weight: 500;
+}
