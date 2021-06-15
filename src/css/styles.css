@@ -1,0 +1,82 @@
+#sign-up{
+    width: 97px;
+    height: 32px;
+
+    font-size: 16px;
+    color: #FFFFFF;
+
+    border: 0px;
+
+    /*margin-left: 7.8%;*/
+
+    background: #CAA892;
+    border-radius: 15px 0px;
+}
+
+#contact{
+    width: 142px;
+    height: 42px;
+
+    background: #37806B;
+    border-radius: 20px 0px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    border: 0px;
+    color: #FFFFFF;
+}
+
+img.leaf{
+    border-radius: 140px 0px;
+    margin: 0 2% 8% 2.6%;
+}
+
+div.img-contour{
+    position: absolute;
+    width: 716px;
+    height: 626px;
+    margin: -626px 0 0 3%;
+
+    border: 2px solid #B0855B;
+    box-sizing: border-box;
+    border-radius: 140px 0px;
+
+    z-index: -10;
+}
+
+.service-odd, .service-even{
+    width: 425px;
+    height: 193px;
+
+    /*box-sizing: border-box;*/
+    margin: 25px 18px;
+
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+    border-radius: 60px 0px;
+}
+
+.service-odd{
+    background: white;
+}
+
+.service-even{
+    background: #CAA892;
+    color: white;
+}
+
+.service-picture{
+    margin: -60px 16px 0 42px;
+}
+
+ul.horizontal{
+    list-style-type: none;
+    padding: 0;
+    /*flex-flow: row wrap;*/
+}
+
+li{
+    margin: 12px;
+}
