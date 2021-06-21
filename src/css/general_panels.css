@@ -3,7 +3,9 @@ body{
     border: 0px;
 }
 
-.horizontal, .service-even, .service-odd{
+.horizontal,
+.service:nth-child(even),
+.service:nth-child(odd){
     display: flex;
     justify-content: space-between;
     align-items: center;

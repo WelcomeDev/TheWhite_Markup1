@@ -6,8 +6,8 @@
 
     <link rel="icon" href="src/img/icon.png"/>
 
-    <link rel="stylesheet" href="src/css/styles.css"/>
     <link rel="stylesheet" href="src/css/general_panels.css"/>
+    <link rel="stylesheet" href="src/css/styles.css"/>
     <link rel="stylesheet" href="src/css/fonts.css"/>
     <link rel="stylesheet" href="src/css/figures.css"/>
     <link rel="stylesheet" href="src/css/animations.css"/>
@@ -33,7 +33,7 @@
 </header>
 <article class="horizontal">
     <div>
-        <caption>MODERN INTERIOR</caption>
+        <p class="header-caption">modern interior</p>
         <h1>
             Create Your<br>
             Interior Design
@@ -53,23 +53,25 @@
     </div>
 
 </article>
-<div id="service-bar">
-    <caption>WHAT WE DO</caption>
+<section id="service-bar">
+    <p class="header-caption">what we do</p>
     <h2>Out Service</h2>
 
     <nav class="service-nav">
         <div class="circle-left">
             <img class="pointer-img"
-                 src="src/img/backwards.svg">
+                 src="src/img/backwards.svg"
+                 alt="Scroll left">
         </div>
         <div class="circle-right">
             <img class="pointer-img"
-                 src="src/img/forward.svg">
+                 src="src/img/forward.svg"
+                 alt="Scroll right">
         </div>
     </nav>
 
-    <div class="horizontal">
-        <div class="service-odd">
+    <div class="horizontal service-holder">
+        <div class="service">
             <img src="src/img/interior.svg"
                  class="service-picture">
             <div>
@@ -81,7 +83,8 @@
                 </p>
             </div>
         </div>
-        <div class="service-even">
+
+        <div class="service">
             <img src="src/img/architecture.svg"
                  class="service-picture">
             <div>
@@ -93,7 +96,8 @@
                 </p>
             </div>
         </div>
-        <div class="service-odd">
+
+        <div class="service">
             <img src="src/img/planning.svg"
                  class="service-picture">
            <div>
@@ -106,6 +110,6 @@
            </div>
         </div>
     </div>
-</div>
+</section>
 </body>
 </html>

@@ -1,7 +1,7 @@
 #sign-up:hover,
 #contact:hover,
-.service-odd:hover,
-.service-even:hover{
+.service:nth-child(odd):hover,
+.service:nth-child(even):hover{
     animation-name: scale-transform;
     animation-duration: 1s;
     animation-fill-mode: both;
