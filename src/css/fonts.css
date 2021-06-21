@@ -1,7 +1,6 @@
 body{
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-style: normal;
-    font-family: normal;
 
     margin: 0;
     font-size: 18px;
@@ -11,7 +10,7 @@ body{
     color: #646464;
 }
 
-h1,h2,caption{
+h1,h2{
     margin: 0;
     font-weight: 600;
     font-style: normal;
@@ -41,8 +40,8 @@ li{
     font-weight: 400;
 }
 
-caption{
-    font-family: SansSerif;
+.header-caption{
+    text-transform: uppercase;
     font-size: 20px;
     line-height: 27px;
 
