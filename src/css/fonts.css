@@ -1,5 +1,5 @@
 body{
-    font-family: "Open Sans";
+    font-family: "Open Sans", serif;
     font-style: normal;
 
     margin: 0;
@@ -10,16 +10,19 @@ body{
     color: #646464;
 }
 
+h1,h2,h3{
+    text-transform: capitalize;
+}
+
+
 h1,h2{
     margin: 0;
     font-weight: 600;
     font-style: normal;
-}
 
-h1,h2{
     color: #212121;
     line-height: 78px;
-    font-family: Poppins;
+    font-family: Poppins, serif;
 }
 
 h2{

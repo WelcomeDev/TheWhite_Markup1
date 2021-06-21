@@ -25,6 +25,8 @@
     font-weight: bold;
     font-size: 18px;
 
+    text-transform: uppercase;
+
     border: 0px;
     color: #FFFFFF;
 }
@@ -78,7 +80,7 @@ ul.horizontal {
     /*flex-flow: row wrap;*/
 }
 
-li {
+.main-navigation-item {
     margin: 12px;
     cursor: pointer;
 }
