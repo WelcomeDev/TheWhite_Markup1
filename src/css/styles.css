@@ -1,3 +1,5 @@
+@import "general_panels.css";
+
 #sign-up {
     width: 97px;
     height: 32px;
@@ -5,12 +7,12 @@
     font-size: 16px;
     color: #FFFFFF;
 
-    border: 0px;
+    border: 0;
 
     /*margin-left: 7.8%;*/
 
     background: #CAA892;
-    border-radius: 15px 0px;
+    border-radius: 15px 0;
 }
 
 #contact {
@@ -27,16 +29,16 @@
 
     text-transform: uppercase;
 
-    border: 0px;
+    border: 0;
     color: #FFFFFF;
 }
 
-img.leaf {
+.img-leaf {
     border-radius: 140px 0;
     margin: 0 2% 8% 2.6%;
 }
 
-div.img-contour {
+.img-contour {
     position: absolute;
     width: 716px;
     height: 626px;
@@ -57,8 +59,8 @@ div.img-contour {
     /*box-sizing: border-box;*/
     margin: 25px 18px;
 
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
-    border-radius: 60px 0px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+    border-radius: 60px 0;
 }
 
 .service:nth-child(odd) {
@@ -74,7 +76,7 @@ div.img-contour {
     margin: -60px 16px 0 42px;
 }
 
-ul.horizontal {
+.navigation-items{
     list-style-type: none;
     padding: 0;
     /*flex-flow: row wrap;*/
@@ -83,6 +85,7 @@ ul.horizontal {
 .main-navigation-item {
     margin: 12px;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .circle-left, .circle-right {
