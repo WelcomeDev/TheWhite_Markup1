@@ -1,4 +1,4 @@
-#sign-up{
+#sign-up {
     width: 97px;
     height: 32px;
 
@@ -13,7 +13,7 @@
     border-radius: 15px 0px;
 }
 
-#contact{
+#contact {
     width: 142px;
     height: 42px;
 
@@ -29,12 +29,12 @@
     color: #FFFFFF;
 }
 
-img.leaf{
+img.leaf {
     border-radius: 140px 0;
     margin: 0 2% 8% 2.6%;
 }
 
-div.img-contour{
+div.img-contour {
     position: absolute;
     width: 716px;
     height: 626px;
@@ -48,7 +48,7 @@ div.img-contour{
 }
 
 .service:nth-child(even),
-.service:nth-child(odd){
+.service:nth-child(odd) {
     width: 425px;
     height: 193px;
 
@@ -59,51 +59,52 @@ div.img-contour{
     border-radius: 60px 0px;
 }
 
-.service:nth-child(odd){
+.service:nth-child(odd) {
     background: white;
 }
 
-.service:nth-child(even){
+.service:nth-child(even) {
     background: #CAA892;
     color: white;
 }
 
-.service-picture{
+.service-picture {
     margin: -60px 16px 0 42px;
 }
 
-ul.horizontal{
+ul.horizontal {
     list-style-type: none;
     padding: 0;
     /*flex-flow: row wrap;*/
 }
 
-li{
+li {
     margin: 12px;
     cursor: pointer;
 }
 
-.circle-left, .circle-right{
+.circle-left, .circle-right {
     width: 30px;
     height: 30px;
     margin: 10px;
-    border-radius:100%;
+    border-radius: 100%;
 
     box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 100;
 }
 
-.circle-left{
-    background: white;
+
+.circle-left {
     color: #37806B;
+    background: white url(../img/backwards.svg) no-repeat center;
 }
 
-.circle-right{
-    background: #37806B;
+.circle-right {
     color: white;
+    background: #37806B url(../img/forward.svg) no-repeat center;
 }
 
-.pointer-img{
+.pointer-img {
     margin-left: 12px
 }
