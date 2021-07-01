@@ -1,0 +1,62 @@
+#sign-up:hover,
+#contact:hover,
+.service:nth-child(odd):hover,
+.service:nth-child(even):hover{
+    animation-name: scale-transform;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    cursor: pointer;
+}
+
+@keyframes scale-transform {
+    to{
+        transform: scale(1.05);
+    }
+}
+
+#sign-up:hover{
+    background: white;
+    color: #CAA892;
+    border: #CAA892 solid 1px;
+}
+
+#contact:hover{
+    background: white;
+    color: #37806B;
+    border: #37806B solid 1px;
+}
+
+#sign-up:active,
+#contact:active{
+    animation-name: big-button-click;
+    animation-duration: 0.5s;
+}
+
+@keyframes big-button-click {
+    to{
+        transform: scale(0.98);
+    }
+}
+
+.circle-right:active,
+.circle-left:active{
+    animation-name: small-button-click;
+    animation-duration: 0.5s;
+}
+
+@keyframes small-button-click {
+    to{
+        transform: scale(0.95);
+    }
+}
+
+.circle-left:hover,
+.circle-right:hover{
+    box-shadow: -3px 9px 30px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.main-navigation-item:hover{
+    color: black;
+    font-weight: 500;
+}
