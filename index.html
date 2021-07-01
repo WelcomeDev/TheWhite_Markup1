@@ -7,73 +7,72 @@
     <link rel="icon" href="src/img/icon.png"/>
 
     <link rel="stylesheet" href="src/css/styles.css"/>
-    <link rel="stylesheet" href="src/css/general_panels.css"/>
     <link rel="stylesheet" href="src/css/fonts.css"/>
-    <link rel="stylesheet" href="src/css/figures.css"/>
     <link rel="stylesheet" href="src/css/animations.css"/>
 </head>
 <body>
 <header class="horizontal">
-    <a href="https://welcomedev.github.io/TheWhite_Markup1/"
-        alt="DecBase">
-        <img src="src/img/logo.png">
+    <a href="index.html"
+       target="_blank"
+       title="Main page">
+        <img src="src/img/logo.png"
+             alt="Decbase logo: you can see decbase word here">
     </a>
     <nav class="horizontal">
-        <ul class="horizontal">
-            <li>HOME</li>
-            <li>PROJECT</li>
-            <li>SERVICE</li>
-            <li>ABOUT</li>
-            <li>BLOG</li>
-            <li>SHOP</li>
-            <li>CONTACT</li>
+        <ul class="horizontal navigation-items">
+            <li class="main-navigation-item">home</li>
+            <li class="main-navigation-item">project</li>
+            <li class="main-navigation-item">service</li>
+            <li class="main-navigation-item">about</li>
+            <li class="main-navigation-item">blog</li>
+            <li class="main-navigation-item">shop</li>
+            <li class="main-navigation-item">contact</li>
         </ul>
         <button id="sign-up">Sign Up</button>
     </nav>
 </header>
 <article class="horizontal">
     <div>
-        <caption>MODERN INTERIOR</caption>
+        <p class="header-caption">modern interior</p>
         <h1>
-            Create Your<br>
-            Interior Design
+            Create your<br>
+            interior design
         </h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/>
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br/>
             veniam, quis nostrud exercitation.
         </p>
-        <button id="contact">CONTACT</button>
+        <button id="contact">contact</button>
     </div>
 
     <div>
-        <img class="leaf"
-             src="src/img/room_pic.png"/>
-        <div class="img-contour"/>
+        <img class="img-leaf"
+             src="src/img/room_pic.png"
+             alt="There's pretty living room interior at the picture"/>
+        <div class="img-contour"></div>
     </div>
 
 </article>
-<div id="service-bar">
-    <caption>WHAT WE DO</caption>
-    <h2>Out Service</h2>
+<section id="service-bar">
+    <p class="header-caption">what we do</p>
+    <h2>Out service</h2>
 
     <nav class="service-nav">
-        <div class="circle-left">
-            <img class="pointer-img"
-                 src="src/img/backwards.svg">
-        </div>
-        <div class="circle-right">
-            <img class="pointer-img"
-                 src="src/img/forward.svg">
-        </div>
+        <div class="circle-left"
+            title="Scroll left"></div>
+
+        <div class="circle-right"
+             title="Scroll right"></div>
     </nav>
 
-    <div class="horizontal">
-        <div class="service-odd">
+    <section class="horizontal service-holder">
+        <div class="service">
             <img src="src/img/interior.svg"
-                 class="service-picture">
+                 class="service-picture"
+                 alt="There's room interior at the picture">
             <div>
-                <h3>Interior Design</h3>
+                <h3>Interior design</h3>
                 <p>
                     Lorem ipsum dolor amet consectetur
                     adipiscing elit sed eiusmod tempor
@@ -81,9 +80,11 @@
                 </p>
             </div>
         </div>
-        <div class="service-even">
+
+        <div class="service">
             <img src="src/img/architecture.svg"
-                 class="service-picture">
+                 class="service-picture"
+                 alt="There's house architecture plan at the picture">
             <div>
                 <h3>Architecture</h3>
                 <p>
@@ -93,9 +94,11 @@
                 </p>
             </div>
         </div>
-        <div class="service-odd">
+
+        <div class="service">
             <img src="src/img/planning.svg"
-                 class="service-picture">
+                 class="service-picture"
+                 alt="There's TODO list at the picture">
            <div>
                <h3>Planning</h3>
                <p>
@@ -105,7 +108,7 @@
                </p>
            </div>
         </div>
-    </div>
-</div>
+    </section>
+</section>
 </body>
 </html>

@@ -1,9 +1,13 @@
 body{
     margin: 0;
-    border: 0px;
+    border: 0;
+    /*Не хочу полосу прокрутки, во время верстки где-то пролетел*/
+    min-width: 1900px;
 }
 
-.horizontal, .service-even, .service-odd{
+.horizontal,
+.service:nth-child(even),
+.service:nth-child(odd){
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +15,8 @@ body{
 
 /*Шапка сайта с картинкой и навигацией*/
 header.horizontal{
-    margin: 34px 15.6% 5.5% 14.2%;
+    margin: 0 15.6% 5.5% 0;
+    padding: 34px 0 0 14.2%;
 }
 
 nav.horizontal{
